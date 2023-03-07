@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="20" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="608051" started-at="2022-10-28T13:39:03 EET" finished-at="2022-10-28T13:49:11 EET">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="608051" started-at="2022-10-28T13:39:03 EET" finished-at="2022-10-28T13:49:11 EET">
+      <class name="org.example.testRunner.runners">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="setUpClass" is-config="true" duration-ms="2076" started-at="2022-10-28T13:39:03 EET" finished-at="2022-10-28T13:39:06 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@53bb71e5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="28726" started-at="2022-10-28T13:39:06 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:39:34 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Dollar currency is selected by default"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F03_currencies user could switch between currencies"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="28474" started-at="2022-10-28T13:39:34 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:40:03 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user could select Euro currency"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F03_currencies user could switch between currencies"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="33575" started-at="2022-10-28T13:40:03 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:40:36 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["guest user could register with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["user could register with new account"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="29825" started-at="2022-10-28T13:40:36 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:41:06 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user could login with valid email and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F02_Login | users could use login functionality to use their accounts"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="28172" started-at="2022-10-28T13:41:06 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:41:34 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["F02_Login| user login with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F02_Login | users could use login functionality to use their accounts"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="26910" started-at="2022-10-28T13:41:34 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:42:01 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user could search with valid product name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F04_user could use search functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="27445" started-at="2022-10-28T13:42:01 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:42:29 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user could search with valid product name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F04_user could use search functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="25299" started-at="2022-10-28T13:42:29 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:42:54 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user could search with valid product name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F04_user could use search functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="32181" started-at="2022-10-28T13:42:54 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:43:26 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user could search using serial"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F04_user could use search functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="30763" started-at="2022-10-28T13:43:26 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:43:57 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user could search using serial"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F04_user could use search functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="29783" started-at="2022-10-28T13:43:57 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:44:27 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user could search using serial"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F04_user could use search functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="25963" started-at="2022-10-28T13:44:27 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:44:53 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["hover on element"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F05_ user could hover between elements"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="41642" started-at="2022-10-28T13:44:53 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:45:34 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["homeSlider"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F06_homeSliders"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for url to contain "https://demo.nopcommerce.com/nokia-lumia-1020". Current url: "https://demo.nopcommerce.com/" (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\osama\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50948}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50948/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bceef6ff8b56ec830b675d577208ded6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "https://demo.nopcommerce.com/nokia-lumia-1020". Current url: "https://demo.nopcommerce.com/" (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\osama\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50948}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50948/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bceef6ff8b56ec830b675d577208ded6
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at org.example.stepDefs.D06_homeSlidersStepDef.makeSureThatTheUserNavigateToTheRightPage(D06_homeSlidersStepDef.java:36)
+at ✽.make sure that the user navigate to the right page(file:///C:/Users/osama/IdeaProjects/demonopcommerce/src/main/resources/features/F06_homeSliders.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="43847" started-at="2022-10-28T13:45:34 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:46:18 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["homeslider2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F06_homeSliders"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for url to contain "https://demo.nopcommerce.com/iphone-6". Current url: "https://demo.nopcommerce.com/" (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\osama\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50984/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6544b5a517f839df2363ea93e1762b17]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "https://demo.nopcommerce.com/iphone-6". Current url: "https://demo.nopcommerce.com/" (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\osama\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50984/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6544b5a517f839df2363ea93e1762b17
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at org.example.stepDefs.D06_homeSlidersStepDef.relativeProductForSecondSliderIsDisplayed(D06_homeSlidersStepDef.java:55)
+at ✽.relative product for second slider is displayed(file:///C:/Users/osama/IdeaProjects/demonopcommerce/src/main/resources/features/F06_homeSliders.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="27613" started-at="2022-10-28T13:46:18 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:46:46 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user opens facebook link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F07_followUs | users could open followUs links"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="28616" started-at="2022-10-28T13:46:46 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:47:14 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user open twitter link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F07_followUs | users could open followUs links"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="25244" started-at="2022-10-28T13:47:14 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:47:40 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user opens rss link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F07_followUs | users could open followUs links"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for number of open windows to be 2 (tried for 2 second(s) with 500 milliseconds interval)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\osama\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51140}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51140/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2aa35843dbd1b67f57fbd212f2cdcaa1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of open windows to be 2 (tried for 2 second(s) with 500 milliseconds interval)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\osama\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51140}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51140/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2aa35843dbd1b67f57fbd212f2cdcaa1
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at org.example.stepDefs.D07_links.newTapIsOpenContainTheUrl(D07_links.java:34)
+at ✽.new tap is open contain the new url "https://demo.nopcommerce.com/new-online-store-is-open"(file:///C:/Users/osama/IdeaProjects/demonopcommerce/src/main/resources/features/F07_links.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="39626" started-at="2022-10-28T13:47:40 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:48:19 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user opens youtube link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F07_followUs | users could open followUs links"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="24898" started-at="2022-10-28T13:48:19 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:48:44 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user could add product to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F08_Wishlist"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="runScenario" duration-ms="26756" started-at="2022-10-28T13:48:44 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-28T13:49:11 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["check that the product is added in wishlist"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["F08_Wishlist"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:org.example.testRunner.runners@36b4cef0]" name="tearDownClass" is-config="true" duration-ms="450" started-at="2022-10-28T13:49:11 EET" finished-at="2022-10-28T13:49:11 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.example.testRunner.runners -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

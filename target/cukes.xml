@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="20" time="605.822">
+<testcase classname="F03_currencies user could switch between currencies" name="Dollar currency is selected by default" time="28.42">
+<system-out><![CDATA[When user check currency list...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F03_currencies user could switch between currencies" name="user could select Euro currency" time="28.418">
+<system-out><![CDATA[When user select Euro.......................................................passed
+Then check the Euro sign....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="user could register with new account" name="guest user could register with valid data" time="33.512">
+<system-out><![CDATA[Given user go to register page..............................................passed
+When user select gender type................................................passed
+And user enter first name  and last name....................................passed
+And user enter date of birth................................................passed
+And user enter email........................................................passed
+And user fills Password fields..............................................passed
+And user clicks on register button..........................................passed
+Then success message is displayed...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F02_Login | users could use login functionality to use their accounts" name="user could login with valid email and password" time="29.774">
+<system-out><![CDATA[Given user go to login page.................................................passed
+When user login with valid email and  Password..............................passed
+And user press on login button..............................................passed
+Then user login to the system successfully..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F02_Login | users could use login functionality to use their accounts" name="F02_Login| user login with invalid data" time="28.127">
+<system-out><![CDATA[Given user go to login page.................................................passed
+When user login with invalid email and  Password............................passed
+And user press on login button..............................................passed
+Then user could not login to the system.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F04_user could use search functionality" name="user could search with valid product name" time="26.866">
+<system-out><![CDATA[Given user go to search field with the product name "book"..................passed
+And user press on search button.............................................passed
+Then user get the result of search correctly "book".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="F04_user could use search functionality" name="user could search with valid product name 2" time="27.403">
+<system-out><![CDATA[Given user go to search field with the product name "laptop"................passed
+And user press on search button.............................................passed
+Then user get the result of search correctly "laptop".......................passed
+]]></system-out>
+</testcase>
+<testcase classname="F04_user could use search functionality" name="user could search with valid product name 3" time="25.262">
+<system-out><![CDATA[Given user go to search field with the product name "nike"..................passed
+And user press on search button.............................................passed
+Then user get the result of search correctly "nike".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="F04_user could use search functionality" name="user could search using serial" time="32.147">
+<system-out><![CDATA[Given uder go to search field with serial  "SCI_FAITH"......................passed
+And user press on search button.............................................passed
+Then user get the search result successfully "SCI_FAITH"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="F04_user could use search functionality" name="user could search using serial 2" time="30.748">
+<system-out><![CDATA[Given uder go to search field with serial  "APPLE_CAM"......................passed
+And user press on search button.............................................passed
+Then user get the search result successfully "APPLE_CAM"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="F04_user could use search functionality" name="user could search using serial 3" time="29.751">
+<system-out><![CDATA[Given uder go to search field with serial  "SF_PRO_11"......................passed
+And user press on search button.............................................passed
+Then user get the search result successfully "SF_PRO_11"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="F05_ user could hover between elements" name="hover on element" time="25.932">
+<system-out><![CDATA[When user select random category to hover on it.............................passed
+And select asub category from the main category and click on it.............passed
+Then make sure that page title  contain the name of selected subcategory....passed
+]]></system-out>
+</testcase>
+<testcase classname="F06_homeSliders" name="homeSlider" time="41.607">
+<failure message="Expected condition failed: waiting for url to contain &quot;https://demo.nopcommerce.com/nokia-lumia-1020&quot;. Current url: &quot;https://demo.nopcommerce.com/&quot; (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\osama\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50948}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50948/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: bceef6ff8b56ec830b675d577208ded6" type="org.openqa.selenium.TimeoutException"><![CDATA[When user click on  first sliders in home page..............................passed
+Then make sure that the user navigate to the right page.....................failed
+
+StackTrace:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "https://demo.nopcommerce.com/nokia-lumia-1020". Current url: "https://demo.nopcommerce.com/" (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\osama\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50948}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50948/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bceef6ff8b56ec830b675d577208ded6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.example.stepDefs.D06_homeSlidersStepDef.makeSureThatTheUserNavigateToTheRightPage(D06_homeSlidersStepDef.java:36)
+	at ✽.make sure that the user navigate to the right page(file:///C:/Users/osama/IdeaProjects/demonopcommerce/src/main/resources/features/F06_homeSliders.feature:5)
+]]></failure>
+</testcase>
+<testcase classname="F06_homeSliders" name="homeslider2" time="43.777">
+<failure message="Expected condition failed: waiting for url to contain &quot;https://demo.nopcommerce.com/iphone-6&quot;. Current url: &quot;https://demo.nopcommerce.com/&quot; (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\osama\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50984/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6544b5a517f839df2363ea93e1762b17" type="org.openqa.selenium.TimeoutException"><![CDATA[When user click on second slider in home page...............................passed
+Then relative product for second slider is displayed........................failed
+
+StackTrace:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "https://demo.nopcommerce.com/iphone-6". Current url: "https://demo.nopcommerce.com/" (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\osama\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50984/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6544b5a517f839df2363ea93e1762b17
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.example.stepDefs.D06_homeSlidersStepDef.relativeProductForSecondSliderIsDisplayed(D06_homeSlidersStepDef.java:55)
+	at ✽.relative product for second slider is displayed(file:///C:/Users/osama/IdeaProjects/demonopcommerce/src/main/resources/features/F06_homeSliders.feature:9)
+]]></failure>
+</testcase>
+<testcase classname="F07_followUs | users could open followUs links" name="user opens facebook link" time="27.588">
+<system-out><![CDATA[Given user click on the feacebook icon......................................passed
+Then new tap is open contain the new url "https://www.facebook.com/nopCommerce".passed
+]]></system-out>
+</testcase>
+<testcase classname="F07_followUs | users could open followUs links" name="user open twitter link" time="28.593">
+<system-out><![CDATA[Given user click on twitter icon............................................passed
+Then new tap is open contain the new url "https://twitter.com/nopCommerce"..passed
+]]></system-out>
+</testcase>
+<testcase classname="F07_followUs | users could open followUs links" name="user opens rss link" time="25.225">
+<failure message="Expected condition failed: waiting for number of open windows to be 2 (tried for 2 second(s) with 500 milliseconds interval)&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\osama\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51140}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51140/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2aa35843dbd1b67f57fbd212f2cdcaa1" type="org.openqa.selenium.TimeoutException"><![CDATA[Given user click on rss link................................................passed
+Then new tap is open contain the new url "https://demo.nopcommerce.com/new-online-store-is-open".failed
+
+StackTrace:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of open windows to be 2 (tried for 2 second(s) with 500 milliseconds interval)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\osama\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51140}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51140/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2aa35843dbd1b67f57fbd212f2cdcaa1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.example.stepDefs.D07_links.newTapIsOpenContainTheUrl(D07_links.java:34)
+	at ✽.new tap is open contain the new url "https://demo.nopcommerce.com/new-online-store-is-open"(file:///C:/Users/osama/IdeaProjects/demonopcommerce/src/main/resources/features/F07_links.feature:21)
+]]></failure>
+</testcase>
+<testcase classname="F07_followUs | users could open followUs links" name="user opens youtube link" time="39.608">
+<system-out><![CDATA[Given user click on youtube link............................................passed
+Then new tap is open contain the new url "https://www.youtube.com/user/nopCommerce".passed
+]]></system-out>
+</testcase>
+<testcase classname="F08_Wishlist" name="user could add product to the cart" time="24.881">
+<system-out><![CDATA[Given user click on the click on wishlist button on the product in home page.passed
+Then success message is appeared in the home page...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="F08_Wishlist" name="check that the product is added in wishlist" time="26.743">
+<system-out><![CDATA[Given user click on the click on wishlist button on the product in home page.passed
+Then the product is added in wishlist quantity..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
